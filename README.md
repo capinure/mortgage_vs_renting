@@ -1,6 +1,21 @@
 # mortgage_vs_renting
-a python model that compares the long run cost of renting vs owning
 
-this python model will take a number of high level parameters associated with owning a home and then generalise comparable costs when renting
+A Python model that compares the long run cost of renting versus owning.
 
-this model should give the user a complex tool to compare the total cost of ownership against rent, over a person's lifetime.
+This model takes a number of high level parameters associated with owning a
+home and generalises comparable costs when renting. It can be used as a tool
+to compare the total cost of ownership against rent over a person's lifetime.
+
+## Getting Started
+
+The repository includes a small Python script `mortgage_vs_renting.py` that
+performs a basic comparison between renting and buying. You can run it
+directly:
+
+```bash
+python mortgage_vs_renting.py
+```
+
+The script accepts command-line arguments so you can easily experiment with
+different scenarios. Run it with `--help` to see all available options, such as
+`--purchase-price`, `--monthly-rent`, and `--years`.
